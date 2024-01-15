@@ -150,26 +150,72 @@ h1, h2{
     border-radius: 5px;
 }
 
-/* vegan life motivation section */
+                                                    /* motivation section */
 
-#motivation-info {
+.motivation-content1 {
     height: 600px;
     width: 100%;
+    background-color: rgba(194, 214, 206, 0.5);
 }
 
-#motivation-info-image {
+.motivation-content2 {
+    height: 600px;
+        width: 100%;
+    }
+    
+.motivation-image-left {
     float: left;
     width: 50%;
     text-align: center;
-
 }
 
-#motivation-info-image img {
-    height: 600px;
-}
-
-
-#motivation-info-text {
+.motivation-image-right {
     float: right;
     width: 50%;
+    text-align: center;
+}
+
+.motivation-image-inner-left {
+    height: 500px;
+    width: 60%;
+    padding-top: 50px;
+}
+
+.motivation-image-inner-left img {
+    height: 500px;
+    padding-top: 50px;
+}
+
+.motivation-image-inner-right {
+    height: 500px;
+    width: 60%;
+    float: left;
+}
+
+.motivation-image-inner-righ img{
+    height: 500px;  
+    padding-top: 50px;
+}
+
+.motivation-text-left {
+    float: left;
+    width: 50%;
+}
+
+.motivation-text-right {
+    float: right;
+    width: 50%;
+}
+
+.motivation-text-inner {
+    width: 60%;
+    float: left;
+    padding-top: 50px;
+}
+
+.motivation-text-inner-left {
+    width: 60%;
+    float: right;
+    padding-top: 50px;
+    text-align: right; 
 }
