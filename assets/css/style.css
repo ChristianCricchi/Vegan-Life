@@ -66,6 +66,9 @@ h1, h2{
                                                         /*Vegan-Image and Cover text*/
 #vegan-outer {
     position: relative;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
 }
 
 #vegan-image {
@@ -73,17 +76,62 @@ h1, h2{
     height: 600px;
     background: url(../images/veganlife.jpg) no-repeat center center;
     background-size: cover;
-    overflow: hidden;
+}
+
+#cover-text h1 {
+    color: white;
+    font-size: 200%;
+    text-transform: uppercase;
 }
 
 #cover-text {
     padding: 10px;
-    width: 800px;
+    width: 700px;
     height: auto;
     background-color: rgba(44, 65, 56, 0.5);
     text-align: center;
     position: absolute;
-    right: 50px;
+    right: 5px;
     bottom: 300px;
+}
+
+                                                        /*About Section*/
+#about-outer {
+    height: 600px;
+    width: 100%;
+}
+
+#about-text {
+    text-align: center;
+}
+
+#about-text h1 {
+    text-transform: uppercase;
+    padding-top: 20px;
+
+}
+
+#info-links {
+    margin: 100px;
+}
+
+#info-links div {
+    width: 20%;
+    float: left;
+}
+
+.veganlife1 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+#info-links h2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
 }
 
