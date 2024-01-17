@@ -31,8 +31,7 @@ h1, h2{
     letter-spacing: 3px;
 }
 
-#menu,
-#logo {
+#menu, #logo {
     line-height: 75px;
 }
 
@@ -150,7 +149,7 @@ h1, h2{
     border-radius: 5px;
 }
 
-                                                    /* motivation section */
+                                                    /* Motivation section */
 
 .motivation-content1 {
     height: 600px;
@@ -192,7 +191,7 @@ h1, h2{
     float: left;
 }
 
-.motivation-image-inner-righ img{
+.motivation-image-inner-righ img {
     height: 500px;  
     padding-top: 50px;
 }
@@ -219,3 +218,30 @@ h1, h2{
     padding-top: 50px;
     text-align: right; 
 }
+
+                                                        /*Form section*/
+#form-outer {
+height: 600px;
+width: 100%;
+background-color: gray;
+position: relative;
+}
+
+#myvideo {
+    height: 600px;
+    width: 100%;
+}
+
+#myvideo video {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#contribute-form {
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    background-color: rgba(194, 214, 206, 0.5);
+}
+                                                            
