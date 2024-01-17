@@ -159,7 +159,7 @@ h1, h2{
 
 .motivation-content2 {
     height: 600px;
-        width: 100%;
+    width: 100%;
     }
     
 .motivation-image-left {
@@ -191,7 +191,7 @@ h1, h2{
     float: left;
 }
 
-.motivation-image-inner-righ img {
+.motivation-image-inner-right img {
     height: 500px;  
     padding-top: 50px;
 }
@@ -216,7 +216,7 @@ h1, h2{
     width: 60%;
     float: right;
     padding-top: 50px;
-    text-align: right; 
+    text-align: left; 
 }
 
                                                         /*Form section*/
