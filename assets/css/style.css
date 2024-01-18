@@ -75,6 +75,35 @@ h1, h2{
     border-radius: 5px;
 }
 
+.spacing-under-nav {
+    position: relative;
+    top: -100px;
+}
+
+/* Dropdown Nav */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 150px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    display: block;
+    line-height: 30px;
+}
+
+.dropdown:hover .dropdown-content {
+     display: block;
+}
+
 /* #menu a:active {
     background-color: rgba(194, 214, 206, 0.5);
     border-radius: 5px;
@@ -82,12 +111,7 @@ h1, h2{
 /* .active {
     background-color: rgba(194, 214, 206, 0.5);
     border-radius: 5px;
-}*/
-
-.spacing-under-nav {
-    position: relative;
-    top: -100px;
-}
+} */
 
 /*Vegan-Image and Cover text*/
 
