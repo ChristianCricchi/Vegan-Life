@@ -12,6 +12,16 @@ body {
 }
 
                                                 /*Heading and Logo*/
+                                                
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 3;
+    height: 120px;
+}                                                
+
 h1, h2{
     font-family: Montserrat, sans-serif;
     letter-spacing: 4px;
@@ -67,6 +77,7 @@ h1, h2{
     height: 600px;
     width: 100%;
     overflow: hidden;
+    margin-top: 120px;
 }
 
 #vegan-image {
@@ -92,8 +103,9 @@ h1, h2{
     right: 5px;
     bottom: 300px;
 }
+    
+/*About Section*/
 
-                                                        /*About Section*/
 #about-outer {
     height: 600px;
     width: 100%;
@@ -149,7 +161,7 @@ h1, h2{
     border-radius: 5px;
 }
 
-                                                    /* Motivation section */
+/* Motivation section */
 
 .motivation-content1 {
     height: 600px;
@@ -219,7 +231,8 @@ h1, h2{
     text-align: left; 
 }
 
-                                                        /*Form section*/
+/*Form section*/
+
 #form-outer {
 height: 600px;
 width: 100%;
@@ -280,5 +293,26 @@ position: relative;
     border-radius: 4px;
     color: #4b5054;
     border: none;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin-top: 40px;
+    padding: 0 30px;
+    color: #4b5054;
 }
                                                             
