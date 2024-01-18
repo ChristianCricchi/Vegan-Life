@@ -113,8 +113,8 @@ h1, h2{
 /*About Section*/
 
 #about-outer {
-
     width: 100%;
+    padding: 20px 0;
 }
 
 #about-text {
@@ -127,8 +127,7 @@ h1, h2{
 
 #about-text h1 {
     text-transform: uppercase;
-    padding-top: 20px;
-
+    
 }
 
 #info-links {
@@ -170,79 +169,48 @@ h1, h2{
 
 /* Motivation section */
 
-.motivation-content1 {
-    height: 600px;
-    width: 100%;
+.pose-content-wrapper {
+    width: 100%; 
+}                                                        
+
+.green-background {
     background-color: rgba(194, 214, 206, 0.5);
-    padding-top: 50px;
-    padding-right: 100px;
-}                                                                         
-
-.motivation-content2 {
-    height: 600px;
-    width: 100%;
-    padding-top: 50px;
 }
 
-.motivation-image-left {
-    float: left;
+.column {
     width: 50%;
-    text-align: center;
 }
 
-.motivation-image-right {
+.right {
     float: right;
-    width: 50%;
+}
+
+.left {
+    float: left;
+}
+
+.content-image {
     text-align: center;
+    padding: 50px 0;
 }
 
-/*.motivation-image-inner-left {
-    height: 500px;
-    width: 80%;
-
-    float: right;
-}*/
-
-.motivation-image-inner-left img {
-    height: 500px;
-    
+.content-text-right {
+    text-align: justify;
+    padding: 50px 100px 50px 0;
 }
 
-/*.motivation-image-inner-right {
-    height: 500px;
-    width: 80%;
-    float: left;
-}*/
-
-.motivation-image-inner-right img {
-    height: 500px;  
-    
+.content-text-left {
+    text-align: justify;
+    padding: 50px 0px 50px 100px;
 }
 
-.motivation-text-left {
-    float: left;
-    width: 50%;
+.content-text-left h2 {
     text-align: right;
 }
 
-.motivation-text-right {
-    float: right;
-    width: 50%;
-    position: left;
+.content-image img {
+    height: 500px;
 }
-
-/*.motivation-text-inner-right {
-    width: 80%;
-    float: left;
-    padding-top: 50px;
-}*/
-
-/*.motivation-text-inner-left {
-    width: 80%;
-    float: right;
-    padding-top: 50px;
-    text-align: left; 
-}*/
 
 /*Form section*/
 
@@ -362,6 +330,24 @@ footer {
 
     #cover-text h1 {
         font-size: 160%;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .content-image {
+        padding: 50px 0 0 0;
+    }
+
+    .content-text-left, .content-text-right {
+        padding: 0;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .column h2 {
+        text-align: center;
     }
 
 }
