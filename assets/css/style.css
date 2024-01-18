@@ -11,7 +11,7 @@ body {
     color: #4b5054;
 }
 
-                                                /*Heading and Logo*/
+/*Heading and Logo*/
                                                 
 header {
     position: fixed;
@@ -19,7 +19,7 @@ header {
     width: 100%;
     background-color: white;
     z-index: 3;
-    height: 120px;
+
 }                                                
 
 h1, h2{
@@ -35,7 +35,8 @@ h1, h2{
     text-transform: uppercase;
 }
 
-                                                /*Menu*/
+/*Menu*/
+
 #menu {
     font-size: 110%;
     letter-spacing: 3px;
@@ -71,7 +72,8 @@ h1, h2{
     border-radius: 5px;
 }
 
-                                                        /*Vegan-Image and Cover text*/
+/*Vegan-Image and Cover text*/
+
 #vegan-outer {
     position: relative;
     height: 600px;
@@ -125,7 +127,7 @@ h1, h2{
 }
 
 #info-links {
-    margin: 50px 200px;
+    margin: 50px 150px;
 }
 
 #info-links div {
@@ -134,8 +136,8 @@ h1, h2{
 }
 
 .veganlife1 {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
     text-align: center;
     display: block;
@@ -188,8 +190,9 @@ h1, h2{
 
 .motivation-image-inner-left {
     height: 500px;
-    width: 60%;
+    width: 80%;
     padding-top: 50px;
+    float: right;
 }
 
 .motivation-image-inner-left img {
@@ -199,7 +202,7 @@ h1, h2{
 
 .motivation-image-inner-right {
     height: 500px;
-    width: 60%;
+    width: 80%;
     float: left;
 }
 
@@ -216,16 +219,17 @@ h1, h2{
 .motivation-text-right {
     float: right;
     width: 50%;
+    position: relative;
 }
 
-.motivation-text-inner {
-    width: 60%;
+.motivation-text-inner-right {
+    width: 80%;
     float: left;
     padding-top: 50px;
 }
 
 .motivation-text-inner-left {
-    width: 60%;
+    width: 80%;
     float: right;
     padding-top: 50px;
     text-align: left; 
