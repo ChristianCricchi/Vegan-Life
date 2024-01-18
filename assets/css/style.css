@@ -174,11 +174,14 @@ h1, h2{
     height: 600px;
     width: 100%;
     background-color: rgba(194, 214, 206, 0.5);
+    padding-top: 50px;
+    padding-right: 100px;
 }                                                                         
 
 .motivation-content2 {
     height: 600px;
     width: 100%;
+    padding-top: 50px;
 }
 
 .motivation-image-left {
@@ -193,52 +196,53 @@ h1, h2{
     text-align: center;
 }
 
-.motivation-image-inner-left {
+/*.motivation-image-inner-left {
     height: 500px;
     width: 80%;
 
     float: right;
-}
+}*/
 
 .motivation-image-inner-left img {
     height: 500px;
-    padding-top: 50px;
+    
 }
 
-.motivation-image-inner-right {
+/*.motivation-image-inner-right {
     height: 500px;
     width: 80%;
     float: left;
-}
+}*/
 
 .motivation-image-inner-right img {
     height: 500px;  
-    padding-top: 50px;
+    
 }
 
 .motivation-text-left {
     float: left;
     width: 50%;
+    text-align: right;
 }
 
 .motivation-text-right {
     float: right;
     width: 50%;
-    position: relative;
+    position: left;
 }
 
-.motivation-text-inner-right {
+/*.motivation-text-inner-right {
     width: 80%;
     float: left;
     padding-top: 50px;
-}
+}*/
 
-.motivation-text-inner-left {
+/*.motivation-text-inner-left {
     width: 80%;
     float: right;
     padding-top: 50px;
     text-align: left; 
-}
+}*/
 
 /*Form section*/
 
