@@ -5,8 +5,8 @@ html, body {
     padding: 0;
 }
 
-.clear-both {
-    clear: both;
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -15,9 +15,25 @@ body {
     color: #4b5054;
 }
 
-html {
-    scroll-behavior: smooth;
-  }
+.clear-both {
+    clear: both;
+}
+
+h1, h2 {
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 4px;
+    color: #4b5054;
+    text-transform: uppercase;
+}
+
+h2 {
+    margin: 30px 0;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
 
 /*Heading and Logo*/
                                                 
@@ -30,13 +46,6 @@ header {
     box-shadow: 0 -20px 30px #000;
 
 }                                                
-
-h1, h2{
-    font-family: Montserrat, sans-serif;
-    letter-spacing: 4px;
-    color: #4b5054;
-    text-transform: uppercase;
-}
 
 #logo {
     float: left;
@@ -73,7 +82,7 @@ h1, h2{
 }
 
 #menu a:hover {
-    background-color: rgba(194, 214, 206, 0.5);
+    background-color: #e1eae7;
     border-radius: 5px;
 }
 
@@ -89,6 +98,10 @@ h1, h2{
     display: inline-block;
 }
 
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -98,23 +111,11 @@ h1, h2{
     box-shadow: 0 0 5px #808080;
 }
 
+
 .dropdown-content a {
     display: block;
     line-height: 30px;
 }
-
-.dropdown:hover .dropdown-content {
-     display: block;
-}
-
-/* #menu a:active {
-    background-color: rgba(194, 214, 206, 0.5);
-    border-radius: 5px;
-}
-/* .active {
-    background-color: rgba(194, 214, 206, 0.5);
-    border-radius: 5px;
-} */
 
 /*Vegan-Image and Cover text*/
 
@@ -133,32 +134,34 @@ h1, h2{
     background-size: cover;
 }
 
-#cover-text h2 {
-    color: white;
-    font-size: 180%;
-}
-
 #cover-text {
-    padding: 10px;
+    position: absolute;
+    right: 50px;
+    bottom: 300px;
     width: 400px;
     height: auto;
-    background-color: rgba(44, 65, 56, 0.5);
+}
+
+#cover-text h2 {
+    color: white;
+    background-color: rgba(44, 65, 56, 0.5); 
+    font-size: 28px;
+    font-weight: 700;
     text-align: center;
-    position: absolute;
-    right: 5px;
-    bottom: 300px;
+    padding: 40px 10px; 
+    margin: 0;
 }
     
 /*About Section*/
 
 #about-outer {
-    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 20px 0;
 }
 
 #about-text {
     text-align: center;
-    width: 70%;
     display: block;
     margin: 0 auto;
     line-height: 30px;
@@ -173,7 +176,7 @@ h1, h2{
     float: left;
 }
 
-.veganlife1 {
+.vegan-images {
     height: 150px;
     width: 150px;
     border-radius: 50%;
@@ -182,7 +185,7 @@ h1, h2{
     margin: 0 auto;
 }
 
-#info-links h4 {
+#info-links h3 {
     text-align: center;
     font-size: 110%;
     letter-spacing: 3px;
@@ -190,25 +193,27 @@ h1, h2{
     
 }
 
-#info-links h4 a {
+#info-links h3 a {
     color: inherit;
     padding: 10px;
     text-decoration: none;
 }
 
-#info-links h4 a:hover {
-    background-color: rgba(194, 214, 206, 0.5);
+#info-links h3 a:hover {
+    background-color: #e1eae7;
     border-radius: 5px;
 }
 
 /* Motivation section */
 
 .pose-content-wrapper {
-    width: 100%; 
-}                                                        
+    max-width: 1200px; 
+    padding: 20px 0;
+    margin: 0 auto;
+}                                                     
 
 .green-background {
-    background-color: rgba(194, 214, 206, 0.5);
+    background-color: #e1eae7;
 }
 
 #poses-header {
@@ -229,18 +234,18 @@ h1, h2{
 
 .content-image {
     text-align: center;
-    padding: 50px 0;
+    padding: 50px;
 }
 
 .content-text-right {
     text-align: justify;
-    padding: 50px 200px 50px 0;
+    padding: 50px;
     line-height: 25px;
 }
 
 .content-text-left {
     text-align: justify;
-    padding: 50px 0px 50px 200px;
+    padding: 50px;
     line-height: 25px;
 }
 
@@ -261,15 +266,15 @@ h1, h2{
 }
 
 .content-image img {
-    height: 500px;
+    height: 450px;
+    width: 450px;
 }
 
 /* Maps Section */
 
 #map-outer {
-    background-color: rgb(20, 42, 43);
-    padding: 20px 20px 40px 20px;
-
+    padding: 40px 0px 60px 0px;
+    background-color: #142a2b;
 }
 
 #map-outer h2 {
@@ -285,6 +290,7 @@ h1, h2{
 iframe {
     width: 100%;
     height: 450px;
+    border: 0;
 }
 
 /*Form section*/
@@ -303,14 +309,16 @@ video {
 #contribute-form {
     position: absolute;
     top: 5%;
-    right: 5%;
+    left: 0;
+    right: 0;
     bottom: 5%;
-    background-color: rgba(20, 42, 43, 0.8);
+    margin: auto;
+    background-color: #142a2b;
     max-width: 400px;
     padding: 20px;
     color: white;
     text-align: center;
-}   
+}
 
 .text-input {
     width: 90%;
@@ -345,7 +353,8 @@ textarea {
 }
 
 .contribute-button:hover {
-    box-shadow: 0 12px 16px 0 rgba(245, 242, 242, 0.24), 0 17px 50px 0 rgba(216, 195, 195, 0.24);
+    background-color: #e1eae7;
+    cursor: pointer;
 }
 
 /* footer */
@@ -371,11 +380,24 @@ footer {
     color: #4b5054;
 }
 
-/* media queries */
+.social-networks i:hover {
+    color: #142a2b;
+}
+
+/* Media queries */
 
 /* For small screens/laptops size from 1024px wide and down */
 
 @media screen and (max-width: 1024px) {
+
+    #menu {
+        font-size: 100%;
+    }
+
+    #menu ul, #menu li {
+        padding: 0;
+        margin: 0;
+    }
 
     #cover-text h2 {
         font-size: 160%;
@@ -384,7 +406,7 @@ footer {
     #cover-text {
         width: 300px;
     }
-
+    
     #about-outer {
         width: 70%;
         margin: 0 auto;
@@ -406,7 +428,7 @@ footer {
     #pose-links h4 {
         padding-top: 0
     }
-
+        
     .column {
         width: 100%;
     }
@@ -414,19 +436,25 @@ footer {
     .content-image {
         padding: 50px 0 0 0;
     }
+    
+    .content-image img {
+        width: 400px;
+        height: 400px;
+    }
 
     .content-text-left, .content-text-right {
         padding: 0;
         width: 70%;
         margin: 0 auto;
+        text-align: left;
     }
 
     .column h3 {
         text-align: center;
         margin-top: 20px;
     }
-
 }
+
 
 /* For tablet sizes from 768px wide and down */
 
@@ -434,6 +462,8 @@ footer {
 
     #logo {
         margin-bottom: 0;
+        margin-top: 10px;
+        padding-left: 5px;
     }
 
     #menu {
@@ -445,7 +475,7 @@ footer {
     }
 
     #menu, #logo {
-        line-height: 50px;
+        line-height: 40px;
     }
 
     #menu ul {
@@ -458,8 +488,8 @@ footer {
         margin-right: 0px;
     }
 
-    #menu a {
-        padding: 5px;
+    .spacing-under-nav {
+        top: -80px;
     }
 
     #cover-text h2 {
@@ -486,20 +516,16 @@ footer {
     }  
 
     #contribute-form {
-        top: 5%;
-        left: 0;
-        right: 0;
-        bottom: 5%;
-        margin: auto;
         max-width: 300px;
-    }  
-} 
+    }
+}
 
-    /* For mobile device sizes from 480px wide and down */
+/* For mobile device sizes from 480px wide and down */
 @media screen and (max-width: 480px) {
 
     #menu {
-        font-size: 50%;
+        font-size: 65%;
+        font-weight: 600;
     }
 
     #logo {
@@ -509,6 +535,10 @@ footer {
     #logo, #menu {
         margin-left: 10px;
         line-height: 30px;
+    }
+
+    #menu a {
+        padding: 6px;
     }
 
     #cover-text {
@@ -525,14 +555,26 @@ footer {
         padding: 0;
     }
 
-    content-image img {
-        max-width: 300px;
-        height: auto;
+    .content-image img {
+        width: 300px;
+        height: 300px;
     }
 
     .social-networks i {
         font-size: 140%;
         padding: 0 20px;
+    }
+}
+
+/* For mobile device sizes from 320px wide and down */
+@media screen and (max-width: 320px) {
+    
+    #menu {
+        font-size: 55%;
+    }
+
+    #menu a {
+        padding: 4px;
     }
 }
                                                             
