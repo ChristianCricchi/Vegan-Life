@@ -440,8 +440,8 @@ footer {
         clear: left;
         float: left;
         margin-left: 20px;
-        margin-bottom: 20px;
-        font-size: 90%;
+        margin-bottom: 10px;
+        font-size: 100%;
     }
 
     #menu, #logo {
@@ -499,7 +499,16 @@ footer {
 @media screen and (max-width: 480px) {
 
     #menu {
-        font-size: 75%;
+        font-size: 50%;
+    }
+
+    #logo {
+        font-size: 100%;
+    }
+
+    #logo, #menu {
+        margin-left: 10px;
+        line-height: 30px;
     }
 
     #cover-text {
@@ -515,6 +524,12 @@ footer {
         float: left;
         padding: 0;
     }
+
+    content-image img {
+        max-width: 300px;
+        height: auto;
+    }
+
     .social-networks i {
         font-size: 140%;
         padding: 0 20px;
