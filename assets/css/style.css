@@ -193,13 +193,13 @@ h1, h2{
     
 }
 
-#info-links h4 {
+#info-links h4 a {
     color: inherit;
     padding: 10px;
     text-decoration: none;
 }
 
-#info-links h4:hover {
+#info-links h4 a:hover {
     background-color: rgba(194, 214, 206, 0.5);
     border-radius: 5px;
 }
@@ -264,13 +264,14 @@ video {
 
 #contribute-form {
     position: absolute;
-    right: 10%;
-    bottom: 10%;
-    background-color: rgba(194, 214, 206, 0.9);
-    max-width: 400px;
+    top: 5%;
+    right: 5%;
+    bottom: 5%;
+    background-color: rgba(9, 74, 76, 0.8);
     padding: 20px;
-    margin: 20px;
-}
+    color: white;
+    text-align: center;
+}   
 
 #contribute-form h3 {
     text-transform: uppercase;
@@ -281,10 +282,9 @@ video {
     border: 1px solid white;
     padding: 10px;
     margin: 5px 0 20px 0;
-
 }
 
-#textarea {
+textarea {
     border: 1px solid white;
     padding: 10px;
     margin: 5px 0 0 0;
@@ -306,25 +306,32 @@ video {
     color: #4b5054;
     border: none;
     display: block;
+    margin: 0 auto;    
+}
+
+.contribute-button:hover {
+    box-shadow: 0 12px 16px 0 rgba(245, 242, 242, 0.24), 0 17px 50px 0 rgba(216, 195, 195, 0.24);
 }
 
 /* footer */
 
 footer {
-    height: 150px;
+    height: 110px;
 }
 
 .social-networks {
     text-align: center;
+    padding: 0;
+    margin: 40px 0;
 }
 
 .social-networks li {
     display: inline;
+    
 }
 
 .social-networks i {
     font-size: 160%;
-    margin-top: 40px;
     padding: 0 30px;
     color: #4b5054;
 }
@@ -334,6 +341,10 @@ footer {
 /* For small screens/laptops size from 1024px wide and down */
 
 @media screen and (max-width: 1024px) {
+
+    #cover-text h2 {
+        font-size: 160%;
+    }
 
     #about-outer {
 
@@ -358,10 +369,6 @@ footer {
         padding-top: 0
     }
 
-    #cover-text h2 {
-        font-size: 160%;
-    }
-
     .column {
         width: 100%;
     }
@@ -382,7 +389,7 @@ footer {
 
 }
 
-/* For iPad/tablet sizes from 768px wide and down */
+/* For tablet sizes from 768px wide and down */
 
 @media screen and (max-width: 768px) {
 
@@ -440,11 +447,14 @@ footer {
         }
 
     #contribute-form {
+        top: 5%;
         left: 0;
-        bottom: 5px;
-        margin: 0;
+        right: 0;
+        bottom: 5%;
+        margin: auto;
         max-width: 300px;
-    }   
+    }  
+} 
 
     /* For mobile device sizes from 480px wide and down */
 @media screen and (max-width: 480px) {
@@ -454,6 +464,10 @@ footer {
         width: 100%;
         float: left;
         padding: 0;
+    }
+    .social-networks i {
+        font-size: 140%;
+        padding: 0 20px;
     }
 }
                                                             
