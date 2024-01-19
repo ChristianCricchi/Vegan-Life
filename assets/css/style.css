@@ -27,6 +27,7 @@ header {
     width: 100%;
     background-color: white;
     z-index: 3;
+    box-shadow: 0 -20px 30px #000;
 
 }                                                
 
@@ -34,13 +35,13 @@ h1, h2{
     font-family: Montserrat, sans-serif;
     letter-spacing: 4px;
     color: #4b5054;
+    text-transform: uppercase;
 }
 
 #logo {
     float: left;
     font-size: 200%;
     margin: 0 0 0 20px;
-    text-transform: uppercase;
 }
 
 /*Menu*/
@@ -78,7 +79,7 @@ h1, h2{
 
 .spacing-under-nav {
     position: relative;
-    top: -100px;
+    top: -75px;
 }
 
 /* Dropdown Nav */
@@ -94,6 +95,7 @@ h1, h2{
     background-color: white;
     min-width: 150px;
     z-index: 1;
+    box-shadow: 0 0 5px #808080;
 }
 
 .dropdown-content a {
@@ -134,7 +136,6 @@ h1, h2{
 #cover-text h2 {
     color: white;
     font-size: 180%;
-    text-transform: uppercase;
 }
 
 #cover-text {
@@ -161,11 +162,6 @@ h1, h2{
     display: block;
     margin: 0 auto;
     line-height: 30px;
-}
-
-#about-text h2 {
-    text-transform: uppercase;
-    
 }
 
 #info-links {
@@ -215,6 +211,10 @@ h1, h2{
     background-color: rgba(194, 214, 206, 0.5);
 }
 
+#poses-header {
+    text-align: center;
+}
+
 .column {
     width: 50%;
 }
@@ -235,15 +235,29 @@ h1, h2{
 .content-text-right {
     text-align: justify;
     padding: 50px 200px 50px 0;
+    line-height: 25px;
 }
 
 .content-text-left {
     text-align: justify;
     padding: 50px 0px 50px 200px;
+    line-height: 25px;
 }
 
-.content-text-left h2 {
+.content-text-left h3, .content-text-right h3 {
+    margin-top: 0;
+}
+
+.content-text-right h3 {
+    text-align: left;
+}
+
+.content-text-left h3 {
     text-align: right;
+}
+
+.content-text-left li, .content-text-right li {
+    padding: 0 0 15px 0;
 }
 
 .content-image img {
@@ -259,7 +273,6 @@ h1, h2{
 }
 
 #map-outer h2 {
-    text-transform: uppercase;
     color: white;
     text-align: center;
 }
@@ -293,10 +306,6 @@ video {
     color: white;
     text-align: center;
 }   
-
-#contribute-form h3 {
-    text-transform: uppercase;
-}
 
 .text-input {
     width: 90%;
@@ -407,8 +416,9 @@ footer {
         margin: 0 auto;
     }
 
-    .column h2 {
+    .column h3 {
         text-align: center;
+        margin-top: 20px;
     }
 
 }
@@ -482,6 +492,10 @@ footer {
 
     /* For mobile device sizes from 480px wide and down */
 @media screen and (max-width: 480px) {
+
+    #menu {
+        font-size: 75%;
+    }
 
     #cover-text {
         left: 0;
