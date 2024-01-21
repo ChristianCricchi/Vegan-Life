@@ -140,16 +140,15 @@ header {
     bottom: 300px;
     width: 400px;
     height: auto;
-}
-
-#cover-text h2 {
+    padding: 40px 10px;
     color: white;
     background-color: rgba(44, 65, 56, 0.5); 
     font-size: 28px;
     font-weight: 700;
+    text-transform: uppercase;
     text-align: center;
-    padding: 40px 10px; 
-    margin: 0;
+    letter-spacing: 4px; 
+    
 }
     
 /*About Section*/
@@ -526,7 +525,7 @@ footer {
 @media screen and (max-width: 480px) {
 
     #menu {
-        font-size: 65%;
+        font-size: 50%;
         font-weight: 600;
     }
 
@@ -535,7 +534,7 @@ footer {
     }
 
     #logo, #menu {
-        margin-left: 8px;
+        margin-left: 10px;
         line-height: 30px;
     }
 
