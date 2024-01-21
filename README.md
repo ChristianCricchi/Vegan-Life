@@ -98,7 +98,7 @@ Wireframes were produced using Balsamiq.
     - The contribute section includes a background video of a tree with moving leaf.
     - The user is invited to sign up to Vegan Life and contribute their suggestion. The users have the possibility to receive the Vegan life Newsletter by selecting the checkbox provided.
 
-![Find Us section image](docs/readme_images/ContatUs.png) 
+![Contact Us section image](docs/readme_images/ContacUs.png) 
 
 - ### Footer
     - The footer section includes links to Vegan's life Facebook, Instagram, Twitter and Youtube pages.
