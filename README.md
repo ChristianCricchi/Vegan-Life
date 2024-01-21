@@ -44,4 +44,17 @@ The Montserrat font is the main font used throughout the whole website. This fon
 ## Wireframes
 Wireframes were produced using Balsamiq. 
 
+<details>
+
+ <summary>Desktop Wireframe</summary>
+
+![Desktop Wireframe](docs/wireframes/Desktop.png)
+ </details>
+
+ <details>
+    <summary>Mobile Wireframe</summary>
+
+![Mobile Wireframe](docs/wireframes/Mobile.png)
+ </details>
+
 
