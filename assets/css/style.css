@@ -93,6 +93,7 @@ header {
 
 /* Dropdown Nav */
 
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -111,10 +112,10 @@ header {
     box-shadow: 0 0 5px #808080;
 }
 
-
 .dropdown-content a {
     display: block;
     line-height: 30px;
+
 }
 
 /*Vegan-Image and Cover text*/
@@ -140,15 +141,15 @@ header {
     bottom: 300px;
     width: 400px;
     height: auto;
-    padding: 40px 10px;
+}
+#cover-text h2 {
     color: white;
     background-color: rgba(44, 65, 56, 0.5); 
     font-size: 28px;
     font-weight: 700;
-    text-transform: uppercase;
     text-align: center;
-    letter-spacing: 4px; 
-    
+    padding: 40px 10px; 
+    margin: 0;
 }
     
 /*About Section*/
@@ -427,28 +428,28 @@ footer {
     #pose-links h4 {
         padding-top: 0;
     }
-        
+
     .column {
         width: 100%;
     }
 
     .content-image {
         padding: 50px 0 0 0;
-      
+
     }
-    
+
     .content-image img {
         width: 400px;
         height: 400px;
     }
-
+    
     .content-text-left, .content-text-right {
         padding: 0;
         width: 70%;
         margin: 0 auto;
         text-align: left;
     }
-
+    
     .column h3 {
         text-align: center;
         margin-top: 20px;
@@ -458,8 +459,9 @@ footer {
 
 /* For tablet sizes from 768px wide and down */
 
-@media screen and (max-width: 768px) {
 
+@media screen and (max-width: 768px) {
+    
     #logo {
         margin-bottom: 0;
         margin-top: 10px;
@@ -513,6 +515,7 @@ footer {
     .vegan-images {
         width: 150px; 
         height: 150px;
+        
     }  
 
     #contribute-form {
@@ -525,7 +528,7 @@ footer {
 @media screen and (max-width: 480px) {
 
     #menu {
-        font-size: 50%;
+        font-size: 65%;
         font-weight: 600;
     }
 
@@ -534,21 +537,20 @@ footer {
     }
 
     #logo, #menu {
-        margin-left: 10px;
+        margin-left: 8px;
         line-height: 30px;
     }
 
     #menu a {
         padding: 6px;
     }
-
+    
     #cover-text {
         left: 0;
         right: 0;
         bottom: 5%;
         margin: auto;
     } 
-
     #pose-links div {
         clear: both;
         width: 100%;
@@ -570,13 +572,12 @@ footer {
 /* For mobile device sizes from 320px wide and down */
 
 @media screen and (max-width: 320px) {
-    
+
     #menu {
         font-size: 55%;
     }
-
+    
     #menu a {
         padding: 4px;
     }
 }
-                                                      
