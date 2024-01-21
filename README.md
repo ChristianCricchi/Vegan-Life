@@ -57,4 +57,59 @@ Wireframes were produced using Balsamiq.
 ![Mobile Wireframe](docs/wireframes/Mobile.png)
  </details>
 
+## Features
+- ### Navigation
+
+    - The fully responsive navigation bar includes links to the Logo, Home, About, Info, Find Us, Contact Us.
+    - The Info navigation link includes a drop down menu which includes further links to each section.
+    - The navigation bar has a fixed position so that it remains visible at the top of the page as the user navigates through the individual sections. 
+    - A drop shadow was applied to the navigation bar to make sure that it doesn't blend into the other sections of the page upon scrolling.
+    - This section allows the user to easily navigate through the site to find content without having to scroll back up to the top of the page or use the browser back button.
+
+![Nav bar image](docs/readme_images/navigation.png)
+
+- ### The Landing Page Image
+    - The landing page includes an eye-catching image with a text overlay describing the site's goal.
+    - This section provides the user with a clear visual representation of the purpose of the site.
+
+![Landing page image](docs/readme_images/LandingPage.png) 
+
+- ### About Section
+    - The About Section gives a brief description of vegan life gives further details about what the site offers to users.
+    - Below the About text there are four small images with navigation links to each Info Section.
+    - This section will show users the value of vegan life and links invite the user to further explore the site as an alternative to the navigation bar. 
+
+![About section image](docs/readme_images/About.png)
+
+- ### Info Section
+    - This section contains four section linked to a different section and type of info. 
+    - This section is valuable as the user is provided with step by step instructions and the benefict of a vegan lifestyle. 
+
+![Info section image](docs/readme_images/Info.png)
+  
+
+- ### Find Us Section
+    - The Practice Section includes an iframe with an embedded Google Map showing the locations of vegan place in Cardiff.
+    - This section will enable the user to find a vegan place within their locality should they wish to attend a restaurant or the vegan community.
+
+![Find Us image](docs/readme_images/FindUs.png)
+
+- ### Contact us Section
+    - The contribute section includes a background video of a tree with moving leaf.
+    - The user is invited to sign up to Vegan Life and contribute their suggestion. The users have the possibility to receive the Vegan life Newsletter by selecting the checkbox provided.
+
+![Find Us section image](docs/readme_images/ContatUs.png) 
+
+- ### Footer
+    - The footer section includes links to Vegan's life Facebook, Instagram, Twitter and Youtube pages.
+    - The links will open to a new tab to allow easy navigation for the user. 
+    - The footer is valuable to the user as it allows them to find and follow Vegan Life on social media
+
+![Footer image](docs/readme_images/Footer.png)
+
+
+
+
+
+
 
