@@ -4,7 +4,7 @@ Vegan Life is a website that aims to inform users about vegan life style. The si
 
 Vegan Life includes step by step info about the vegan stylelife with images and a description of the benefits of this new life style. Users who wish to attend a meeting  can use the Google Maps section to find where there is a meeting in the neighborhood. The site is intended for users who wish to have information about the vegan life in order to change their life style.
 
-The live link can be found here [Vegan Life](https://christiancricchi.github.io/veganlife/)
+The live link can be found here [Vegan Life](https://christiancricchi.github.io/Vegan-Life/)
 
 
 [Image if Vegan life is responsive]
@@ -184,7 +184,7 @@ The project was deployed using GitHub pages. The steps to deploy using GitHub pa
 5. Once selected, click the 'Save'.
 6. Deployment should be confirmed by a message on a green background saying "Your site is published at" followed by the web address.
 
-The live link can be found here - [Vegan Life](https://christiancricchi.github.io/veganlife/)
+The live link can be found here - [Vegan Life](https://christiancricchi.github.io/Vegan-Life/)
 
 ## Credits
 
