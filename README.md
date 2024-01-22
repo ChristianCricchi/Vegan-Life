@@ -147,14 +147,16 @@ Wireframes were produced using Balsamiq.
 Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Fixed Bugs
+
 #### Anchor link scroll with a fixed position header
 - The header element contains anchor links to allow the user to navigate to different sections within the website. By default, these will scroll so that the target element is flush with the top of the browser window.
 - When I updated the header to use a fixed top position, the beginning of each section ended up being covered by the header, which wasn’t ideal.
 - To resolve this I created div elements at the top of each section and applied a relative position with a -75px top position (the same height as the header). This way, when the user clicks on a nav link, the browser window scrolls to the top of the corresponding section.
 
 ### Known Bugs
-HTML Smooth Scroll does not work on Safari browser.
-When the screen size is reduced, the 4 circular images overlap instead of being in a column.
+
+- HTML Smooth Scroll does not work on Safari browser.
+- When the screen size is reduced, the 4 circular images overlap instead of being in a column.
 
 ## Technologies Used
 
