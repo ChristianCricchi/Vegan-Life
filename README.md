@@ -4,7 +4,8 @@ Vegan Life is a website that aims to inform users about vegan life style. The si
 
 Vegan Life includes step by step info about the vegan stylelife with images and a description of the benefits of this new life style. Users who wish to attend a meeting  can use the Google Maps section to find where there is a meeting in the neighborhood. The site is intended for users who wish to have information about the vegan life in order to change their life style.
 
-The live link can be found here [Vegan life]
+The live link can be found here [Vegan Life](https://christiancricchi.github.io/veganlife/)
+
 
 [Image if Vegan life is responsive]
 
@@ -139,7 +140,7 @@ Wireframes were produced using Balsamiq.
 - The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 8, iPhoneX and iPad to ensure responsiveness on various screen sizes. The website performed as intended. The responsive design was also checked using Chrome developer tools across multiple devices with structural integrity holding for the various sizes.
 - I also used the following websites to test responsiveness:
     - [Responsinator](http://www.responsinator.com/?url=christiancricchi.github.io%2FVegan-Life%2F)
-    - [Am I Responsive](http://ami.responsivedesign.is/?url=https%3A%2F%2Faliokeeffe.github.io%2Fmindyoga%2F)
+    - [Am I Responsive](https://ui.dev/amiresponsive?url=https://christiancricchi.github.io/Vegan-Life/)
 
 
 ### Friends and Family User Testing
@@ -149,7 +150,66 @@ Friends and family members were asked to review the site and documentation to po
 #### Anchor link scroll with a fixed position header
 - The header element contains anchor links to allow the user to navigate to different sections within the website. By default, these will scroll so that the target element is flush with the top of the browser window.
 - When I updated the header to use a fixed top position, the beginning of each section ended up being covered by the header, which wasn’t ideal.
-- To resolve this I created div elements at the top of each section and applied a relative position with a -75px top position (the same height as the header). This way, when the user clicks on a nav link, the browser window scrolls to the top of the corresponding section. 
+- To resolve this I created div elements at the top of each section and applied a relative position with a -75px top position (the same height as the header). This way, when the user clicks on a nav link, the browser window scrolls to the top of the corresponding section.
+
+### Known Bugs
+HTML Smooth Scroll does not work on Safari browser.
+When the screen size is reduced, the 4 circular images overlap instead of being in a column.
+
+## Technologies Used
+
+### Languages
+- HTML5
+- CSS
+
+### Frameworks - Libraries - Programs Used
+- [Am I Responsive](http://ami.responsivedesign.is/) - Used to verify responsiveness of website on different devices.
+- [Responsinator](http://www.responsinator.com/) - Used to verify responsiveness of website on different devices.
+- [Balsamiq](https://balsamiq.com/) - Used to generate Wireframe images.
+- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - Used for overall development and tweaking, including testing responsiveness and performance.
+- [Font Awesome](https://fontawesome.com/) - Used for Social Media icons in footer.
+- [GitHub](https://github.com/) - Used for version control and hosting.
+- [Google Fonts](https://fonts.google.com/) - Used to import and alter fonts on the page.
+- [TinyPNG](https://tinypng.com/) - Used to compress images to reduce file size without a reduction in quality.
+- [W3C](https://www.w3.org/) - Used for HTML & CSS Validation.
+
+## Deployment
+
+The project was deployed using GitHub pages. The steps to deploy using GitHub pages are:
+
+1. Go to the repository on GitHub.com
+2. Select 'Settings' near the top of the page.
+3. Select 'Pages' from the menu bar on the left of the page.
+4. Under 'Source' select the 'Branch' dropdown menu and select the main branch.
+5. Once selected, click the 'Save'.
+6. Deployment should be confirmed by a message on a green background saying "Your site is published at" followed by the web address.
+
+The live link can be found here - [Vegan Life](https://christiancricchi.github.io/veganlife/)
+
+## Credits
+
+### Content
+All educational vegan life content was sourced from the below websites:
+
+
+### Media
+All images and videos were sourced from the below websites with thanks to the below amazing photographers/videographers and from my friend Sebastian Fornesi that drawn down the Vegan life image with the fruit.
+
+
+### Resources Used
+
+- Inspiration for dropdown nav bar - [W3Schools](https://www.w3schools.com/)
+- [Stack Overflow](https://stackoverflow.com/)
+- Insipration for the layout [AliOKeeffee](https://github.com/AliOKeeffe/mindyoga)
+
+## Acknowledgments
+
+My lovely wife Vivian for her support, advice and help in the crisis moments.
+
+My mentor Antonio for his support and advice.
+
+The Code Institute slack community for their quick responses and very helpful feedback!
+
 
 
 
