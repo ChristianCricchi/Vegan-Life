@@ -107,6 +107,25 @@ Wireframes were produced using Balsamiq.
 
 ![Footer image](docs/readme_images/Footer.png)
 
+### Features Left to Implement
+- A button for the mobile nav bar.
+- The ability to search by Info as the bank of information, books, studies grows.
+
+## Testing
+
+### Validator Testing
+- #### HTML
+    - No errors were returned when passing through the official W3C Markup Validator
+        - [W3C Validator Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fchristiancricchi.github.io%2FVegan-Life%2Findex.html))
+- #### CSS
+    - No errors were found when passing through the official W3C CSS Validator 
+        - [W3C CSS Validator Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fchristiancricchi.github.io%2FVegan-Life%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- #### Accessibility 
+    - The site achieved a Lighthouse accessibility score of 100% which confirms that the colours and fonts chosen are easy to read and accessible
+
+![Lighthouse score]()
+
+
 
 
 
