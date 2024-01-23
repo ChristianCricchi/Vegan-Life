@@ -216,7 +216,7 @@ All images and videos were sourced from the below websites with thanks to the be
 - [Favicon](https://favicon.io/)
   - VLiconGreen
 - Sebastinan Fornesi
-  -veganF 
+  - veganF 
  
 ### Resources Used
 
