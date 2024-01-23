@@ -198,7 +198,7 @@ All educational vegan life content was sourced from the below websites:
 - [Vegan Society](https://www.vegansociety.com/)
 - [VRG](https://www.vrg.org/)
 - [The Vegan Hopper](https://www.theveganhopper.com/veganismo-recursos-y-paginas-utiles/#google_vignette)
-- [Arango Medina, C. (2016). El mundo vegano: un nuevo estilo de vida, una nueva ética](repository.eafit.edu.co.)[onlineAvailable at:](https://repository.eafit.edu.co/items/68475962-25db-4561-a3da-d4eed08bfb80) [Accessed 23 Jan. 2024].
+- [Arango Medina, C. (2016). El mundo vegano: un nuevo estilo de vida, una nueva ética](https://repository.eafit.edu.co/items/68475962-25db-4561-a3da-d4eed08bfb80) [Accessed 23 Jan. 2024].
 
 
 ### Media
