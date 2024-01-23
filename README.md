@@ -7,7 +7,7 @@ Vegan Life includes step by step info about the vegan stylelife with images and 
 The live link can be found here [Vegan Life](https://christiancricchi.github.io/Vegan-Life/)
 
 
-[Image if Vegan life is responsive]
+[Vegan life is responsive](docs/wireframes/responsive.png)
 
 ## Site Owner Goals 
 - To provide the user with information about the benefits of vegan lifestyle, with a particular focus on philosophy of veganism. 
