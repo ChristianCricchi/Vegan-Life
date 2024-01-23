@@ -192,6 +192,13 @@ The live link can be found here - [Vegan Life](https://christiancricchi.github.i
 
 ### Content
 All educational vegan life content was sourced from the below websites:
+- [Vegan food and living](https://www.veganfoodandliving.com/vegan-basics/basic-guides/what-to-watch-out-for-when-going-vegan/)
+- [Ong te protejo](https://ongteprotejo.org/ar/)
+- [Ekhart Yoga](https://www.ekhartyoga.com)
+- [Vegan Society](https://www.vegansociety.com/)
+- [VRG](https://www.vrg.org/)
+- [The Vegan Hopper](https://www.theveganhopper.com/veganismo-recursos-y-paginas-utiles/#google_vignette)
+- [Arango Medina, C. (2016). El mundo vegano: un nuevo estilo de vida, una nueva ética](repository.eafit.edu.co.)[onlineAvailable at:](https://repository.eafit.edu.co/items/68475962-25db-4561-a3da-d4eed08bfb80) [Accessed 23 Jan. 2024].
 
 
 ### Media
