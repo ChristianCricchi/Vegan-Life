@@ -203,8 +203,22 @@ All educational vegan life content was sourced from the below websites:
 
 ### Media
 All images and videos were sourced from the below websites with thanks to the below amazing photographers/videographers and from my friend Sebastian Fornesi that drawn down the Vegan life image with the fruit.
-
-
+- [Pexels](https://www.pexels.com/)
+  - Tree Video
+- [Unsplash](https://unsplash.com)
+  - Motivation
+  - Practice
+  - Principles
+  - Veganlige
+- [Google Images](https://images.google.co.uk/)
+  - Veganlife1
+  - Vegano
+  - Vegetarianismo
+- [Favicon](https://favicon.io/)
+  - VLiconGreen
+- Sebastinan Fornesi
+  -veganF 
+ 
 ### Resources Used
 
 - Inspiration for dropdown nav bar - [W3Schools](https://www.w3schools.com/)
