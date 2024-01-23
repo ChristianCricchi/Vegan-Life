@@ -34,7 +34,7 @@ The live link can be found here [Vegan Life](https://christiancricchi.github.io/
 ## Design
 
 ### Imagery
-The imagery used on the vegan life site is very important to the overall experience of the user. A calm theme is consistently used across all imagery with lots of green and peacefull scenes. This gives the sense of union with nature and animals which has great benefits for health, mental health and is intended to invoke a sense of calm and non-violence in the user. The colour green and nature and anumals theme is also important as this ties into the main colour scheme of the website.
+The imagery used on the vegan life site is very important to the overall experience of the user. A calm theme is consistently used across all imagery with lots of green and peacefull scenes. This gives the sense of union with nature and animals which has great benefits for health, mental health and is intended to invoke a sense of calm and non-violence in the user. The colour green and nature and animals theme is also important as this ties into the main colour scheme of the website.
 
 ### Colours
 The colour scheme of the website is white and green with varying shades of green orange used to tie in with the vegan imagery. A dark grey font is used which has a good contrast with the light green and white backgrounds making it easy to read. 
@@ -96,7 +96,7 @@ Wireframes were produced using Balsamiq.
 ![Find Us image](docs/readme_images/FindUs.png)
 
 - ### Contact us Section
-    - The contribute section includes a background video of a tree with moving leaf.
+    - The contact us section includes a background video of a tree with moving leaf.
     - The user is invited to sign up to Vegan Life and contribute their suggestion. The users have the possibility to receive the Vegan life Newsletter by selecting the checkbox provided.
 
 ![Contact Us section image](docs/readme_images/ContacUs.png) 
@@ -194,7 +194,6 @@ The live link can be found here - [Vegan Life](https://christiancricchi.github.i
 All educational vegan life content was sourced from the below websites:
 - [Vegan food and living](https://www.veganfoodandliving.com/vegan-basics/basic-guides/what-to-watch-out-for-when-going-vegan/)
 - [Ong te protejo](https://ongteprotejo.org/ar/)
-- [Ekhart Yoga](https://www.ekhartyoga.com)
 - [Vegan Society](https://www.vegansociety.com/)
 - [VRG](https://www.vrg.org/)
 - [The Vegan Hopper](https://www.theveganhopper.com/veganismo-recursos-y-paginas-utiles/#google_vignette)
@@ -221,7 +220,7 @@ All images and videos were sourced from the below websites with thanks to the be
  
 ### Resources Used
 
-- Inspiration for dropdown nav bar - [W3Schools](https://www.w3schools.com/)
+- Inspiration for dropdown nav bar   -[W3Schools](https://www.w3schools.com/)
 - [Stack Overflow](https://stackoverflow.com/)
 - Insipration for the layout [AliOKeeffee](https://github.com/AliOKeeffe/mindyoga)
 
