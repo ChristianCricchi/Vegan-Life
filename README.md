@@ -222,7 +222,7 @@ All images and videos were sourced from the below websites with thanks to the be
 
 - Inspiration for dropdown nav bar   -[W3Schools](https://www.w3schools.com/)
 - [Stack Overflow](https://stackoverflow.com/)
-- Insipration for the layout [AliOKeeffee](https://github.com/AliOKeeffe/mindyoga)
+- Inspiration for the layout [AliOKeeffee](https://github.com/AliOKeeffe/mindyoga)
 
 ## Acknowledgments
 
