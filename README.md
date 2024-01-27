@@ -11,7 +11,7 @@ The live link can be found here [Vegan Life](https://christiancricchi.github.io/
 
 ## Site Owner Goals 
 - To provide the user with information about the benefits of vegan lifestyle, with a particular focus on philosophy of veganism. 
-- To provide the user with clear and instructions as to how to complete the transition to a vegan lifestyle.
+- To provide the user with clear instructions as to how to complete the transition to a vegan lifestyle.
 - To present the user with a website that is easy to navigate, fully responsive and invokes a sense of calm and and non-violence through the use of appropriate colours and images. 
 - To enable the user to find places where the vegan community gathers for meetings and conferences.
 - To allow users to contribute their opinions and sign up to the vegan life newsletter.
@@ -37,7 +37,7 @@ The live link can be found here [Vegan Life](https://christiancricchi.github.io/
 The imagery used on the vegan life site is very important to the overall experience of the user. A calm theme is consistently used across all imagery with lots of green and peacefull scenes. This gives the sense of union with nature and animals which has great benefits for health, mental health and is intended to invoke a sense of calm and non-violence in the user. The colour green and nature and animals theme is also important as this ties into the main colour scheme of the website.
 
 ### Colours
-The colour scheme of the website is white and green with varying shades of green orange used to tie in with the vegan imagery. A dark grey font is used which has a good contrast with the light green and white backgrounds making it easy to read. 
+The colour scheme of the website is white and green with varying shades of green orange used to tie in with the vegan imagery. A red/orange tree give on contact us section give a sens of calm. A dark grey font is used which has a good contrast with the light green and white backgrounds making it easy to read. 
 
 ### Fonts
 The Montserrat font is the main font used throughout the whole website. This font was imported via [Google Fonts](https://fonts.google.com/). I am using Sans Serif as a backup font, in case for any reason the main font is not being imported into the site correctly.
@@ -64,7 +64,7 @@ Wireframes were produced using Balsamiq.
     - The fully responsive navigation bar includes links to the Logo, Home, About, Info, Find Us, Contact Us.
     - The Info navigation link includes a drop down menu which includes further links to each section.
     - The navigation bar has a fixed position so that it remains visible at the top of the page as the user navigates through the individual sections. 
-    - A drop shadow was applied to the navigation bar to make sure that it doesn't blend into the other sections of the page upon scrolling.
+    - A drop shadow was applied to the navigation bar to make sure that it does not blend into the other sections of the page upon scrolling.
     - This section allows the user to easily navigate through the site to find content without having to scroll back up to the top of the page or use the browser back button.
 
 ![Nav bar image](docs/readme_images/navigation.PNG)
@@ -76,7 +76,7 @@ Wireframes were produced using Balsamiq.
 ![Landing page image](docs/readme_images/LandingPage.PNG) 
 
 - ### About Section
-    - The About Section gives a brief description of vegan life gives further details about what the site offers to users.
+    - The About Section gives a brief description of vegan life, gives further details about what the site offers to users.
     - Below the About text there are four small images with navigation links to each Info Section.
     - This section will show users the value of vegan life and links invite the user to further explore the site as an alternative to the navigation bar. 
 
@@ -156,7 +156,6 @@ Friends and family members were asked to review the site and documentation to po
 ### Known Bugs
 
 - HTML Smooth Scroll does not work on Safari browser.
-- When the screen size is reduced, the 4 circular images overlap instead of being in a column.
 
 ## Technologies Used
 
